@@ -1,6 +1,8 @@
 # scaleSM Plugin for ImageJ/Fiji
-Measuring distances in images obtained with surgical microscopes (SM) with ImageJ/FIJI.
+Measuring distances, objects, and areas in images obtained with surgical microscopes (SM) with ImageJ/FIJI.
 scaleSM is a plugin (https://imagej.net/imagej-wiki-static/Plugins) written in python using ImageJ commands (ImageJ Macro language).  
+
+## Instalation:
 
   1. First you need ImageJ or Fiji installed on your PC. We recommend Fiji, which can be downloaded under https://fiji.sc/ 
 
@@ -22,10 +24,12 @@ scaleSM is a plugin (https://imagej.net/imagej-wiki-static/Plugins) written in p
 
      Troubleshooting: If your having problems launching the plugin. Try installing jython (https://imagej.net/scripting/jython/) via the ImageJ/Fiji Update function or manually.
 
-Using scaleSM to measure objects in images obtained with surgical microscopes (currently available only for Zeiss Kinevo 900).
+## Using scaleSM for measurement 
+
 Images have to be scaled first to allow measurement. The scaleSM plugin facilitates the scaling. Measurement can be performed by various ImageJ/Fiji options (lines, squares, irregular shapes,..). 
 
-Important: To allow scaling the images must be obtained with the Zeiss Kinevo "Position Memory function" (normal "photos" are stored without sufficient metadata). The image folder must contain the pertinent images saved in .png or .jpg format along with their corresponding .xml files otherwise scaling is not possible.
+### Important: Currently available only for Zeiss Kinevo 900. To allow scaling the images must be obtained with the Zeiss Kinevo "Position Memory function" (normal "photos" are stored without sufficient metadata). The image folder must contain the pertinent images saved in .png or .jpg format along with their corresponding .xml files otherwise scaling is not possible.
+
 
   1. Open ImageJ/Fiji and select scaleSM found in the plugin section
   2. A dialog box should open up
