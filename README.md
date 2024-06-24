@@ -30,8 +30,7 @@ Important: To allow scaling the images must be obtained with the Zeiss Kinevo "P
   1. Open ImageJ/Fiji and select scaleSM found in the plugin section
   2. A dialog box should open up
   2.1. Select the surgical microscope used (currently only for Zeiss Kinevo 900)
-  2.2. Select the image file format .jpg or .png (necessary since problems occurred with automatic selection)
-  2.3. Hit OK
+  2.2. Select the image file format .jpg or .png (necessary since problems occurred with automatic selection) and hit OK
   4. A dialog box should open up asking you to navigate to the image folder you want to scale
   5. After selecting the desired folder, the plugin will scale the images creating duplicate .tif files with the suffix scaled
   6. Now you can use "File" -> "Open.." to open a scaled image and measure distances with the "line tool" (select two point in the image) and hit STRG + M (or "Analyze" -> "Measure")
